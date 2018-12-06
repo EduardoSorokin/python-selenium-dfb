@@ -36,15 +36,15 @@ $ sudo apt update
 $ sudo apt install python3-pip
 
 # Install "Selenium" package
-$ pip install selenium
+$ pip3 install selenium
 
 # Install "Beutiful Soup" package
-$ pip install bs4
+$ pip3 install bs4
 
 # The next packages only will need to be installed if you want to execute the code using Jupyter
 
 # Install packages: "NumPy", "Pandas" and "Matplotlib
-$ pip install numpy pandas matplotlib
+$ pip3 install numpy pandas matplotlib
 ```
 
 In order to run **Selenium**, you will need the right browser driver:
