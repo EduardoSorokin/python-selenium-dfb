@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+
+jupyter_notebook/chromedriver.log
+jupyter_notebook/geckodriver.log
+
+python_script/chromedriver.log
+python_script/geckodriver.log
