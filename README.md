@@ -54,14 +54,14 @@ In order to run **Selenium**, you will need the right browser driver:
 - **Firefox:** [geckodriver](https://github.com/mozilla/geckodriver/releases)
 - **Google Chrome:** [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-After download and unpack the driver you want to use, move the file to `/usr/local/bin` (or any location on your system PATH) and give executable permissions to it, like this:
+After download and unpack the driver you want to use, open the Terminal in the directory where the driver is and give executable permissions to the driver. After that move the driver to `/usr/local/bin` (or any location on your system PATH), like this:
 
 ```bash
 # Give executable permissions
-$ sudo chmod +x geckodriver
+$ sudo chmod +x NAME_OF_THE_DRIVER
 
 # Move to a location that is in your system PATH
-$ sudo mv geckodriver /usr/local/bin
+$ sudo mv NAME_OF_THE_DRIVER /usr/local/bin
 ```
 
 ### Windows
