@@ -43,8 +43,8 @@ $ pip3 install bs4
 
 # The next packages only will need to be installed if you want to execute the code using Jupyter
 
-# Install "Jupyter" package
-$ sudo apt install jupyter-core
+# Install packages: "jupyter-core" and "jupyter-notebook"
+$ sudo apt install jupyter-core jupyter-notebook
 
 # Install packages: "NumPy", "Pandas" and "Matplotlib
 $ pip3 install numpy pandas matplotlib
