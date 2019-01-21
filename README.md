@@ -69,7 +69,7 @@ $ sudo mv NAME_OF_THE_DRIVER /usr/local/bin
 
 ### Windows
 
-- Install [Python](https://www.python.org/downloads)
+- Install [Anaconda](https://www.anaconda.com/download)
 - Add Python to the system PATH:
     1. Open `System Properties` (Right click `Computer` in the start menu, or use the keyboard shortcut `Win`+`Pause`)
     2. Click `Advanced system settings` in the sidebar
@@ -77,21 +77,14 @@ $ sudo mv NAME_OF_THE_DRIVER /usr/local/bin
     4. Select `PATH` in the `System variables` section
     5. Click `Edit`
     6. Add Python's PATH to the end of the list. For example:
-        - `C:\Python36` and `C:\Python36\scripts`
-- Open the Command Prompt (`cmd.exe`) and install the required packages with the following commands:
+        - `C:\ProgramData\Anaconda3` and `C:\ProgramData\Anaconda3\Scripts`
+- Open the **Anaconda Prompt** and install the required packages with the following commands:
 
 ```bash
 # Install "Selenium" package
 pip install selenium
-
-# Install "Beutiful Soup" package
-pip install bs4
-
-# The next packages only will need to be installed if you want to execute the code using Jupyter
-
-# Install packages: "NumPy", "Pandas" and "Matplotlib
-pip install numpy pandas matplotlib
 ```
+
 In order to run **Selenium**, you will need the right browser driver:
 
 > By default the code will run on Firefox.
