@@ -132,8 +132,8 @@ Eduardo Sorókin
 
 ### Contact
 
-- [LinkedIn](https://linkedin.com/in/eduardosorokin)
-- [Twitter](https://twitter.com/EduardoSorokin)
+- [LinkedIn](https://linkedin.com/in/eduardosmarcal)
+- [Twitter](https://twitter.com/eduardosmarcal)
 
 ## Changelog
 
